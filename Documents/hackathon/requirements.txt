@@ -1,0 +1,8 @@
+streamlit
+folium
+pandas
+numpy
+datetime
+matplotlib
+requests
+plotly
