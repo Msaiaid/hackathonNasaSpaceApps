@@ -1,9 +1,8 @@
+streamlit
 folium
 pandas
-streamlit
 numpy
 datetime
-matplotlib.pyplot
+matplotlib
 requests
-plotly.express
-plotly.graph_objects
+plotly
