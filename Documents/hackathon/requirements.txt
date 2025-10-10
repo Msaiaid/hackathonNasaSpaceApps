@@ -7,3 +7,4 @@ matplotlib
 requests
 streamlit_folium
 plotly
+streamlit_folium
