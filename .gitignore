@@ -1,0 +1,49 @@
+# IDEs and editors
+.vscode/
+.idea/
+.eclipse/
+.p2/
+.IntelliJIDEA/
+.AppData/
+.streamlit/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+.jupyter/
+.ipython/
+
+# Python caches
+__pycache__/
+*.pyc
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Windows system files
+Thumbs.db
+Desktop.ini
+NTUSER.*
+ntuser.*
+*.regtrans-ms
+*.blf
+
+# Personal folders you don’t want in repo
+Downloads/
+Documents/
+Pictures/
+Videos/
+Music/
+Favorites/
+Contacts/
+Saved Games/
+Searches/
+Links/
+eclipse-workspace/
+VirtualBox/
+android/
+
+# Miscellaneous
+Untitled*.ipynb
+untitled*.txt
+
