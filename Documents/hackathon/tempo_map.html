@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Air Quality Map</title>
+
+    <!-- Leaflet and Plugins -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+    <!-- Custom Modern CSS -->
+    <style>
+        html, body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; /* Modern font */
+            background-color: #f8f9fa; /* Light background */
+        }
+        #map_3b6d80ea9c10001451e46a99547f562c { /* Your map ID */
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            border-radius: 8px; /* Slightly rounded corners */
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* Subtle shadow */
+        }
+        .leaflet-container { 
+            font-size: 0.9rem; /* Slightly smaller font for map labels */
+        }
+        /* Customizing popups for a modern look */
+        .leaflet-popup-content-wrapper {
+            border-radius: 8px;
+            padding: 10px;
+            font-size: 0.9rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+        }
+        .leaflet-popup-content {
+            font-weight: 500;
+            color: #333;
+        }
+    </style>
+
+    <!-- Javascripts -->
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <script>
+        L_NO_TOUCH = false;
+        L_DISABLE_3D = false;
+    </script>
+</head>
+<body>
+    <div class="folium-map" id="map_3b6d80ea9c10001451e46a99547f562c"></div>
+    <script>
+        // Your Folium map initialization script here
+    </script>
+</body>
+</html>
